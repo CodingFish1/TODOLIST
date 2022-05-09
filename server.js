@@ -104,7 +104,7 @@ const requestListener = (req,res) => { //步驟3 req是請求資料 res是回復
         })
     }
 
-      else if (req.method == "OPTIONS") { //处理Prefly
+    else if (req.method == "OPTIONS") { //处理Prefly
         res.writeHead(200,headers)
         res.end () 
     }

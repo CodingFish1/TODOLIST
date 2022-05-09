@@ -8,7 +8,7 @@ function errorHandle(res){
      res.writeHead(400,headers)
      res.write(JSON.stringify({
          "status": "false",
-         "message": '格式不合法，作死囖',
+         "message": '格式不合法',
      }))
      res.end()
 }
